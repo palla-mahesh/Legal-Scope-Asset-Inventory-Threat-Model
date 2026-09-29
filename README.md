@@ -1,0 +1,1 @@
+# Legal-Scope-Asset-Inventory-Threat-Model
