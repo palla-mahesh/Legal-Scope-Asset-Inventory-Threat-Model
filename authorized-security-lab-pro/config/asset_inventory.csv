@@ -1,0 +1,3 @@
+asset_id,asset_name,owner,environment,ip_or_url,testing_allowed,excluded_actions,approved_window,evidence_classification
+LAB-01,Local training web app,RabTech lab,Isolated localhost,http://127.0.0.1:8080,Yes,No denial of service or third-party scanning,Student-defined approved window,Confidential training evidence
+LAB-02,Deliberately vulnerable VM,RabTech lab,Private host-only network,192.168.56.20,Yes,No persistence or outbound traffic,Student-defined approved window,Confidential training evidence

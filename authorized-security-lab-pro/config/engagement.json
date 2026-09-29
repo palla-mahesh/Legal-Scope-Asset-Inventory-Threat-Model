@@ -1,0 +1,22 @@
+{
+  "engagement_name": "Authorized Security Lab - Legal Scope, Asset Inventory & Threat Model",
+  "lab_owner": "RabTech lab",
+  "assessor": "Student assessor",
+  "approval_date": "YYYY-MM-DD",
+  "testing_window": {
+    "start": "YYYY-MM-DD HH:MM",
+    "end": "YYYY-MM-DD HH:MM",
+    "timezone": "Asia/Kolkata"
+  },
+  "emergency_contact": "Lab owner / course supervisor",
+  "rate_limit": "Low-rate reconnaissance only; stop if instability is observed",
+  "approved_assets": ["LAB-01", "LAB-02"],
+  "stop_conditions": [
+    "Target becomes unstable or unavailable",
+    "Traffic leaves the isolated lab",
+    "A non-inventory target is discovered",
+    "Unexpected personal or production data is encountered",
+    "A destructive or persistence condition would be required",
+    "Lab owner or supervisor requests an immediate stop"
+  ]
+}

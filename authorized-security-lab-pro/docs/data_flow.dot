@@ -1,0 +1,17 @@
+digraph DFD {
+  rankdir=LR;
+  node [shape=box, style="rounded"];
+
+  kali [label="Kali Test Client\nNmap / Browser"];
+  app [label="LAB-01 Flask Training App\n127.0.0.1:8080"];
+  db [label="Local SQLite\nTraining DB"];
+  evidence [label="Evidence Store\nMinimum / Redacted"];
+  report [label="Finding & Final Report"];
+  vm [label="LAB-02\n192.168.56.20"];
+
+  kali -> app [label="HTTP"];
+  app -> db [label="Application data"];
+  kali -> vm [label="Host-only test traffic"];
+  kali -> evidence [label="Minimal evidence"];
+  evidence -> report [label="Documented findings"];
+}
